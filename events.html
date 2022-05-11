@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title>アフリカ ウィークス2022 学生企画</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="https://kit.fontawesome.com/daaec33b0c.js" crossorigin="anonymous"></script>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+		<link rel="icon" type="image/png" href="images/hado.ico">
+		<link rel="apple-touch-icon" sizes="180x180" href="images/hado.ico">
+		<meta name="application-name" content="African Weeks">
+		<meta name="msapplication-TileColor" content="#0000ff">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+		<meta charset="UTF-8">
+		<script language="JavaScript">
+			window.onload = function setCell()
+			{
+
+				for (var i=16; i<=28; i++) {
+					if (i != 21 && i != 27 && i != 28){
+						myTBL.rows[Math.floor((i - 1) / 7) + 1].cells[(i - 1) % 7].style.backgroundColor = "#1b5c2d30";
+					}else{
+						myTBL.rows[Math.floor((i - 1) / 7) + 1].cells[(i - 1) % 7].style.backgroundColor = "#22793f94";
+					}
+				}
+				var today = new Date();
+				var d = today.getDate();
+				myTBL.rows[Math.floor((d - 1) / 7) + 1].cells[(d - 1) % 7].style.backgroundColor = "#daff378f";
+			}
+
+			
+		</script>
+	</head>
+	<body>
+		<header>
+			<div class="titledisp">
+				<div class="site">
+					Africa Weeks 2022
+				</div>
+				<div>
+					<div class="gakuseicontainer">
+						<div class="gakusei"><b>学生</b></div>
+						<div class="kikaku"><b>企画</b></div>
+					</div>
+					<div class="withafrica"><b>With Africa</b></div>
+				</div>
+			</div>
+			<nav>
+			<div class="menu">
+				<a class="navl1" href="index.html">Home</a>
+				<a class="navl1" href="magazine.html">雑誌企画</a>
+				<a class="navl1sl" href="events.html">イベント情報</a>
+				<a class="navl2" href="pastAW.html">過去の<br>Africa Weeks</a>
+				<a class="navl1" href="aboutus.html">運営学生紹介</a>
+				<a class="navl2" href="opinions.html">ご意見<br>感想フォーム</a>
+			</div>
+			</nav>
+		</header>
+		<article>
+			<h1>イベント情報</h1>
+			
+			<div>
+				<div>
+					<div class="center" style="font-size: 25pt;">5月</div>
+					<table id="myTBL">
+						<tr>
+							<th>日</th>
+							<th>月</th>
+							<th>火</th>
+							<th>水</th>
+							<th>木</th>
+							<th>金</th>
+							<th>土</th>
+						</tr>
+						<tr>
+							<th>1</th>
+							<th>2</th>
+							<th>3</th>
+							<th>4</th>
+							<th>5</th>
+							<th>6</th>
+							<th>7</th>
+						</tr>
+						<tr>
+							<th>8</th>
+							<th>9</th>
+							<th>10</th>
+							<th>11</th>
+							<th>12</th>
+							<th>13</th>
+							<th>14</th>
+						</tr>
+						<tr>
+							<th>15</th>
+							<th>16</th>
+							<th>17</th>
+							<th>18</th>
+							<th>19</th>
+							<th>20</th>
+							<th class="eventday"><a href="#africanchat">21</a></th>
+						</tr>
+						<tr>
+							<th>22</th>
+							<th>23</th>
+							<th>24</th>
+							<th>25</th>
+							<th>26</th>
+							<th class="eventday"><a href="#interview">27</a></th>
+							<th class="eventday"><a href="#africanworkshop">28</a></th>
+						</tr>
+						<tr>
+							<th>29</th>
+							<th>30</th>
+							<th>31</th>
+							<th></th>
+							<th></th>
+							<th></th>
+							<th></th>
+						</tr>
+					</table>
+				</div>
+			<br>
+			<div class="legend">
+				<span style="background-color: #daff378f;">　　　　</span>・・・本日<br>
+				<span style="background-color: #1b5c2d30;">　　　　</span>・・・Africa Weeks 期間<br>
+				<span style="background-color: #22793f94;">　　　　</span>・・・イベント開催日<br>
+			</div>
+		</div>
+			<br>
+			<div class="container">
+				<div class="datetime, pc-visible">
+					<div class="date">5月21日 (土)</div>
+					<div class="time">17:00-17:50  (第１部)<br>18:00-19:00  (第２部)</div>
+				</div>
+				<div>
+					<h2 id="africanchat">アフリカン・チャット～アフリカとつながろう～</h2>
+					<div class="left">アフリカ地域の学生と共に、お互いの生活や価値観から見える <em>“違い”</em> について議論したり、<br>気軽にお喋りしたりする企画です！</div>
+					<div class="left">※こちらは高校生・大学生対象の限定イベントとなります。<br>※第1部, 第2部のみのご参加も大歓迎です！</div>
+					<h3>第1部: テーマトーク</h3>
+					<div class="left">決まったテーマについてお話しをします。アフリカの大学生とお互いの日常生活を比較し、違いを知りながらリアルなアフリカを教えてもらいましょう。</div>
+					<h3>第2部: フリートーク</h3>
+					<div class="left">アフリカの大学生とテーマを決めずに、楽しくゆる～くお話をする会です。<br>気軽にご参加ください！</div>
+					
+					<div class="datetime, phone-visible">
+						<div class="date">5月21日 (土)</div>
+						<div class="time">17:00-17:50  (第１部)<br>18:00-19:00  (第２部)</div>
+					</div>
+					<a class="applybutton" href="https://eipro.jp/sophia/events/view/AW20220521_1" target="_blank">第1部 お申し込み</a>
+					<a class="applybutton" href="https://eipro.jp/sophia/events/view/AW20220521_2" target="_blank">第2部 お申し込み</a>
+				</div>
+			</div>
+			<br>
+			<div class="container">
+				<div class="datetime, pc-visible">
+					<div class="date">5月27日 (金)</div>
+					<div class="time">17:00-18:30</div>
+				</div>
+				<div>
+					<h2 id="interview">日本とアフリカを”つなぐ“インタビュー<br>～アフリカとつながるってどういうこと～</h2>
+					<div class="left">実際にアフリカについて学んでいる学生やアフリカでのご経験がある方、<br>今現在アフリカと関わっている方々などからその魅力を
+									<br>インタビュー形式でざっくばらんにお話を伺います！
+										</div>
+					<br>
+					<div class="datetime, phone-visible">
+						<div class="date">5月27日 (金)</div>
+						<div class="time">17:00-18:30</div>
+					</div>
+					<a class="applybutton" href="https://eipro.jp/sophia/events/view/AW20220527" target="_blank">お申し込みはこちらから</a>
+				</div>
+			</div>
+			<br>
+			<div class="container">
+				<div class="datetime, pc-visible">
+					<div class="date">5月28日(土)</div>
+					<div class="time">17:00-18:30</div>
+				</div>
+				<div class="pc-visible">
+					<h2 id="africanworkshop">アフリカン・ワークショップ ～アフリカを感じよう～</h2>
+					<div class="left">アフリカ布を使ってワークショップを行います。<br>また、学生団体のASANTE PROJECTによる現地の魅力や活動の紹介、<br>アフリカに関するクイズを行い、日本にいながらアフリカを体感し、<br>アフリカをもっと知ることができる企画です！<br>全編日本語開催です！</div>
+					<div class="datetime, phone-visible">
+						<div class="date">5月28日(土)</div>
+						<div class="time">17:00-18:30</div>
+					</div>
+					<div class="left">※申し込み締切: 5月12日（木）</div>
+					<br>
+					<a class="applybutton" href="https://eipro.jp/sophia/events/view/AW20220528" target="_blank">お申し込みはこちらから</a>
+				</div>
+			</div>
+			<br>
+		</article>
+		<footer>
+			<hr>
+			※内容は事前の予告なしに変更となる可能性があります。<br>
+			お問い合わせ先: <a href="mailto:africa-weeks@ml.sophia.ac.jp">africa-weeks@ml.sophia.ac.jp</a><br>
+			学生企画代表: 総合グローバル学部・学科３年　田村璃子 / 並木舞子
+		</footer>
+	</body>
+</html>

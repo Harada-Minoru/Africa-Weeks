@@ -1,0 +1,878 @@
+
+@media screen and (min-width: 479px){
+	body {
+		background-image: url(images/back1.png);
+		background-size:contain ;
+	}
+
+	.left {
+		text-align: left;
+		font-family: 'Yu Gothic';
+		font-weight: bold;
+		margin: 40px;
+	}
+
+	.center {
+		text-align: center;
+		font-family: 'Yu Gothic';
+		font-weight: bold;
+		margin: 20px;
+	}
+
+	.summary {
+		text-align: center;
+		font-family: 'Yu Gothic';
+		font-weight: bold;
+		font-size: 17pt;
+		line-height: 50px;
+		position: absolute;
+		margin: 0 auto;
+		width: 1200px;
+	}
+
+	.explain {
+		text-align: left;
+		font-family: 'Yu Gothic';
+		font-weight: bold;
+		margin-left: 60px;
+		font-size: 20px;
+	}
+
+	.menu {
+		display: flex;
+		width: 1200px;
+		margin: 0 auto;
+	}
+
+	p {
+		color:#070000;
+	}
+
+	h1 {
+		text-align: left;
+		border-left: solid 7px #7d5c32;
+		padding-left: 20px;
+		margin-left: 50px;
+		font-size: 23pt;
+	}
+
+	h2 {
+		text-align: left;
+		padding-left: 5px;
+		margin-left: 35px;
+		border-bottom: solid 4px #556b2f;
+		font-size: 18pt;
+	}
+
+	h3::before {
+		margin: 0 6px 0 0;
+		content: "\f0dd";
+		color: #8d2e08df;
+		font-family: FontAwesome;
+		position: relative;
+		top: -4px;
+	}
+	h3 {
+		text-align: left;
+		padding-left: 20px;
+		margin-left: 20px;
+		color: #d43c00e1;
+		font-size: 18pt;
+	}
+
+	.container {
+		display: flex;
+		width: 1200px;
+		margin: 0 auto;
+	}
+
+	.pastAWcontainer {
+		display: flex;
+		width: 1200px;
+		margin-left: 30px;
+	}
+
+	.SNScontainer {
+		display: inline-block;
+		width: 479px;
+		margin: 0 auto;
+		margin-left: 50px;
+	}
+
+	.datetime {
+		width:310px;
+	}
+
+	.date {
+		text-align: left;
+		vertical-align: middle;
+		margin: 10px 90px 0px 50px;
+		font-family: 'Castellar';
+		font-weight: bold;
+		color: #8b0000;
+		font-size: 25pt;
+		width: 180px;
+	}
+
+	.time {
+		text-align: left;
+		margin: 10px 50px 0px 50px;
+		font-family: 'Yu Gothic';
+		font-weight: bold;
+		font-size: 16pt;
+	}
+
+
+
+	.pdf {
+		text-align: center;
+		
+	}
+
+	.pdfviewer {
+		width: 80%;
+		height: 1200px;
+	}
+
+	.applybutton {
+		background-color: #deb887;
+		width: 400px;
+		padding: 20px;
+		text-align: center;
+		vertical-align: middle;
+		text-decoration: none;
+		color: #000000;
+		font-family: 'Yu Gothic';
+		font-weight: bold;
+		margin: 30px;
+	}
+
+	article {
+		width: 1200px;
+	}
+
+	.navl1sl {
+		background-color: #deb887;
+		width: 200px;
+		text-decoration: none;
+		color: #330a0a;
+		font-family: 'Yu Gothic';
+		height: 60px;
+		font-weight: bold;
+		line-height: 60px;
+		border-bottom: solid 4px #991f1f;
+	}
+
+	.navl1 {
+		background-color: #deb887;
+		width: 200px;
+		text-decoration: none;
+		color: #330a0a;
+		font-family: 'Yu Gothic';
+		height: 60px;
+		font-weight: bold;
+		line-height: 60px;
+	}
+
+	.navl2sl {
+		background-color: #deb887;
+		width: 200px;
+		text-decoration: none;
+		color: #330a0a;
+		font-family: 'Yu Gothic';
+		height: 60px;
+		font-weight: bold;
+		line-height: 30px;
+		border-bottom: solid 4px #991f1f;
+	}
+
+	.navl2 {
+		background-color: #deb887;
+		width: 200px;
+		text-decoration: none;
+		color: #330a0a;
+		font-family: 'Yu Gothic';
+		height: 60px;
+		font-weight: bold;
+		line-height: 30px;
+	}
+
+	nav > div > a {
+		text-align: center;
+		text-decoration: none;
+		color: #330a0a;
+		font-family: 'Yu Gothic';
+		font-weight: bold;
+	}
+
+	a:hover {
+		background-color: #f5deb3;
+		color: #000000;
+	}
+
+	p.indent-1 {
+		padding-left:1em;
+		text-indent:1em;
+		font-size: 13pt;
+	}
+
+	a:active {
+		background-color: #fffacd;
+		color: #000000;
+	}
+
+	.counter0 {
+		counter-reset: komidashi;
+		margin-left: 100px;
+		font-size: 15pt;
+	}
+
+
+	.counter::before {
+		content: counter(komidashi);
+		counter-increment: komidashi;
+		color: #9b2d2d;
+	}
+
+	.representative {
+		
+		height: 540px;
+		width: 1200px;
+		display: flex;
+		margin-left: 20px
+	}
+
+	.staffs {
+		width: 1200px;
+		display: flex;
+		margin: 0 auto;
+	}
+
+	.AboutusDescription {
+		width: 820px;
+	}
+
+	.images {
+		margin: 0px 20px 0px 20px;
+	}
+
+	.staffsimage {
+		margin: 0px 20px 0px 20px;
+		width: 500px;
+		height: 374.8px;
+	}
+
+	th {
+		padding: 10px 20px 10px 20px;
+		border: solid 2px #6b6b6b8f;
+		/* border: solid 2px #daff378f; */
+	}
+	tr {
+		padding: 10px 20px 10px 20px;
+	}
+
+	table {
+		margin: 0 auto;
+		border-collapse: collapse;
+	}
+
+	th > a {
+		text-decoration: none;
+		color:#0c00af;
+	}
+
+	article {
+		margin: auto;
+	}
+
+	.site {
+		font-family: 'Castellar';
+		font-size: 50pt;
+		text-align: center;
+		margin: 10px;
+		vertical-align: baseline;
+	}
+
+	.titledisp {
+		width: 900px;
+		display: flex;
+		align-items: center;
+		margin: 0 auto;
+	}
+
+	.withafrica {
+		margin-left: 30px; 
+		color:#006F45; 
+		font-size:20pt; 
+		font-family: franklin gothic medium;
+	}
+
+	.gakuseicontainer{
+		display:flex; margin-left: 30px;
+	}
+
+	.gakusei {
+		background-color: #79956C; color: white; padding: 3px;
+	}
+
+	.kikaku {
+		background-color: #B9A767; color: white; padding: 3px;
+	}
+
+	h4 {
+		margin-left: 50px;
+	}
+
+	.calendarcontainer {
+		display: inline-block;
+		margin: 0 auto; width: 750px;
+	}
+
+	.legend {
+		margin-left: 400px;
+	}
+
+	.phone-visible {
+		display: none;
+	}
+
+
+	.SNS {
+		display: inline-block;
+		width: 600px;
+		margin-left: 15px;
+	}
+
+	.opinionform {
+		margin: 0 auto; width: 700px;
+	}
+
+	.slideimages {
+		margin: 0px;
+		width: 1200px;
+		height: 900px;
+	}
+
+	.slider_fade {
+		position: relative;
+		width: 1200px;
+		padding: 0px;
+		background-color: white;
+	}
+	
+	.slider_fade > li {
+		margin: 0px 0px 0px 0px;
+		position: absolute;
+		width: 1200px;
+		height: 1000px;
+		list-style: none;
+		visibility: hidden;
+		animation: anime_slider_fade 12s 0s infinite;
+	}
+	.slider_fade > li:nth-of-type(2) {
+		animation-delay: 4s;
+	}
+	.slider_fade > li:nth-of-type(3) {
+		animation-delay: 8s;
+	}
+	
+	@keyframes anime_slider_fade {
+		0% {
+			visibility: visible;
+			opacity: 0;
+		}
+		15% {
+			opacity: 0.3;
+		}
+		33.3% {
+			opacity: 0.3;
+		}
+		48.3% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 0;
+		}
+	}
+
+	.slidetext {
+		height: 900px;
+	}
+
+	.aw2022 {
+		font-size: 30pt;
+		font-family: franklin gothic medium;
+		color:#8b0000 ;
+	}
+
+	footer {
+		text-align: right;
+	}
+
+	.balloon1 {
+		position: relative;
+		display: inline-block;
+		margin: 1.5em 15px 1.5em 2em;
+		padding: 7px 10px;
+		min-width: 120px;
+		max-width: 100%;
+		color: rgb(0, 0, 0);
+		font-size: 20px;
+		background: #ffeae0;
+	  }
+	  
+	  .balloon1::before {
+		content: "";
+		position: absolute;
+		top: 50%;
+		left: 100%;
+		margin-top: -15px;
+		border: 15px solid transparent;
+		border-left: 15px solid #ffeae0;
+	  }
+	  
+	  .balloon1 p {
+		margin: 0;
+		padding: 0;
+	  }
+
+}
+
+
+@media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+	html {
+		overflow-x : hidden;
+	}
+	
+	body {
+		background-image: url(images/back1.png);
+		background-size: cover;
+	}
+	
+	.left {
+		text-align: left;
+		font-family: 'Yu Gothic';
+		font-weight: bold;
+		margin: 20px;
+		font-size: 14pt;
+		width: 350px;
+	}
+	
+	.center {
+		text-align: center;
+		font-family: 'Yu Gothic';
+		font-weight: bold;
+		margin: 15px;
+	}
+	
+	.summary {
+		font-family: 'Yu Gothic';
+		font-weight: bold;
+		font-size: 15pt;
+		line-height: 50px;
+		margin-left: 15px;
+		width: 400px;
+	}
+	
+	.explain {
+		text-align: left;
+		font-family: 'Yu Gothic';
+		font-weight: bold;
+		margin-left: 22px;
+	}
+	
+	.menu {
+		display: flex;
+		flex-wrap: wrap;
+		width: 479px;
+		margin: 0 auto;
+	}
+	
+	p {
+		color:#070000;
+	}
+	
+	h1 {
+		text-align: left;
+		border-left: solid 7px #7d5c32;
+		padding-left: 20px;
+		margin-left: 20px;
+		font-size: 23pt;
+	}
+	
+	h2 {
+		text-align: left;
+		padding-left: 5px;
+		margin-left: 20px;
+		border-bottom: solid 4px #556b2f;
+		font-size: 18pt;
+		width: 340px;
+	}
+	
+	h3::before {
+		margin: 0 6px 0 0;
+		content: "\f0dd";
+		color: #8d2e08df;
+		font-family: FontAwesome;
+		position: relative;
+		top: -4px;
+	}
+	h3 {
+		text-align: left;
+		padding-left: 20px;
+		margin-left: 20px;
+		color: #d43c00e1;
+		font-size: 18pt;
+	}
+	
+	.container {
+		display: inline-block;
+		width: 479px;
+		margin: 0 auto;
+		flex-wrap: wrap;
+	}
+
+	.pastAWcontainer {
+		display: flex;
+		width: 1200px;
+		margin-left: 0px;
+	}
+
+	.SNScontainer {
+		display: inline-block;
+		width: 479px;
+		margin: 0 auto;
+		flex-wrap: wrap;
+		margin-left: 0px;
+	}
+	
+	.datetime {
+		margin-top: 0px;
+		width:340px;
+	}
+	
+	.date {
+		text-align: left;
+		vertical-align: middle;
+		margin: 0px 10px 0px 30px;
+		font-family: 'Yu Gothic';
+		font-weight: bold;
+		color: #8b0000;
+		font-size: 25pt;
+		width: 300px;
+	}
+	
+	.time {
+		text-align: left;
+		margin: 10px 50px 0px 30px;
+		font-family: 'Yu Gothic';
+		font-weight: bold;
+		font-size: 16pt;
+		width: 300px;
+	}
+	
+	
+	
+	.pdf {
+		text-align: center;
+	}
+	
+	.applybutton {
+		background-color: #deb887;
+		width: 280px;
+		line-height: 100px;
+		padding: 20px;
+		text-decoration: none;
+		color: #000000;
+		font-family: 'Yu Gothic';
+		font-weight: bold;
+		margin: 10px;
+	}
+	
+	
+	
+	.navl1sl {
+		background-color: #deb887;
+		width: 125px;
+		text-decoration: none;
+		color: #330a0a;
+		font-family: 'Yu Gothic';
+		height: 40px;
+		font-weight: bold;
+		line-height: 40px;
+		border-bottom: solid 4px #991f1f;
+	}
+	
+	.navl1 {
+		background-color: #deb887;
+		width: 125px;
+		text-decoration: none;
+		color: #330a0a;
+		font-family: 'Yu Gothic';
+		height: 40px;
+		font-weight: bold;
+		line-height: 40px;
+	}
+	
+	.navl2sl {
+		background-color: #deb887;
+		width: 125px;
+		text-decoration: none;
+		color: #330a0a;
+		font-family: 'Yu Gothic';
+		height: 40px;
+		font-weight: bold;
+		line-height: 20px;
+		border-bottom: solid 4px #991f1f;
+	}
+	
+	.navl2 {
+		background-color: #deb887;
+		width: 125px;
+		text-decoration: none;
+		color: #330a0a;
+		font-family: 'Yu Gothic';
+		height: 40px;
+		font-weight: bold;
+		line-height: 20px;
+	}
+	
+	nav > div > a {
+		text-align: center;
+		text-decoration: none;
+		color: #330a0a; 
+		font-family: 'Yu Gothic';
+		font-weight: bold;
+		
+	}
+	
+	a:hover {
+		background-color: #f5deb3;
+		color: #000000;
+	}
+	
+	p.indent-1 {
+		padding-left:1em;
+		text-indent:1em;
+
+	}
+	
+	a:active {
+		background-color: #fffacd;
+		color: #000000;
+	}
+	
+	
+	
+	
+	.counter0 {
+		counter-reset: komidashi;
+		margin-left: 100px;
+		font-size: 15pt;
+	}
+	
+	
+	.counter::before {
+		content: counter(komidashi);
+		counter-increment: komidashi;
+		color: #9b2d2d;
+	}
+	
+	.representative {
+		
+		height: 450px;
+		width: 1200px;
+		display: inline-block;
+		margin-left: 5px;
+		flex-wrap: wrap;
+	}
+	
+	.staffs {
+		height: 300px;
+		width: 1200px;
+		display: inline-block;
+		margin: 0 auto;
+	}
+
+	.staffsimage {
+		margin-left: 10px;
+		width: 360px;
+		height: 269.8px;
+	}
+	
+	.AboutusDescription {
+		width: 350px;
+	}
+	
+	.images {
+		margin: 0px 15px 0px 15px;
+	}
+	
+	.slideimages {
+		margin: 0px;
+		width: 375px;
+		height: 260px;
+	}
+
+	th {
+		padding: 4px 10px 4px 10px;
+		border: solid 2px #556b2f;
+	}
+	tr {
+		padding: 4px 10px 4px 10px;
+	}
+	table {
+		margin: 0 auto;
+		width: 350px;
+	}
+	
+	.site {
+		font-family: 'Yu Gothic';
+		font-size: 23pt;
+		text-align: center;
+		margin: 10px;
+		vertical-align: baseline;
+	}
+	
+	.titledisp {
+		width: 479px;
+		display: flex;
+		align-items: center;
+		margin: 0 auto;
+	}
+
+	.withafrica {
+		margin-left: 5px; 
+		color:#006F45; 
+		font-size:15pt; 
+		font-family: 
+		franklin gothic medium;
+	}
+
+	.gakuseicontainer{
+		display:flex; margin-left: 5px;
+	}
+
+	.gakusei {
+		background-color: #79956C; color: white; padding: 3px; font-size: 10pt;
+	}
+
+	.kikaku {
+		background-color: #B9A767; color: white; padding: 3px; font-size: 10pt;
+	}
+	
+	h4 {
+		margin-left: 50px;
+	}
+
+	.legend {
+		margin-left: 20px;
+	}
+
+	.pc-visible {
+		display: none;
+	}
+
+	.pdfviewer {
+		width: 90%;
+		height: 800px;
+	}
+
+	.SNS {
+		width: 420px;
+		margin-left: 15px;
+	}
+
+	.opinionform {
+		margin: 0 auto;
+		width: 640px; height: 670; 
+	}
+
+	.slider_fade {
+		position: relative;
+		width: 1200px;
+		padding: 0px;
+		background-color: white;
+	}
+	 
+	.slider_fade > li {
+		margin: 0px 0px 0px 0px;
+		position: absolute;
+		width: 1200px;
+		height: 1000px;
+		list-style: none;
+		visibility: hidden;
+		animation: anime_slider_fade 12s 0s infinite;
+	}
+	.slider_fade > li:nth-of-type(2) {
+		animation-delay: 4s;
+	}
+	.slider_fade > li:nth-of-type(3) {
+		animation-delay: 8s;
+	}
+	 
+	@keyframes anime_slider_fade {
+		0% {
+			visibility: visible;
+			opacity: 0;
+		}
+		15% {
+			opacity: 0.3;
+		}
+		33.3% {
+			opacity: 0.3;
+		}
+		48.3% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 0;
+		}
+	}
+	
+	.slidetext {
+		height: 290px;
+	}
+	
+	.aw2022 {
+		font-size: 30pt;
+		font-family: franklin gothic medium;
+		color:#8b0000 ;
+	}
+
+	footer {
+		text-align: right;
+		font-size: 8pt;
+	}
+
+	.balloon1 {
+		position: relative;
+		display: inline-block;
+		margin: 1.5em 0;
+		padding: 7px 10px;
+		min-width: 120px;
+		max-width: 100%;
+		color: #555;
+		font-size: 16px;
+		background: #ffeae0;
+	  }
+	  
+	  .balloon1::before {
+		content: "";
+		position: absolute;
+		top: 100%;
+		left: 50%;
+		margin-left: -15px;
+		border: 15px solid transparent;
+		border-top: 15px solid #ffeae0;
+	  }
+	  
+	  .balloon1 p {
+		margin: 0;
+		padding: 0;
+	  }
+}
+
+
+
+  
